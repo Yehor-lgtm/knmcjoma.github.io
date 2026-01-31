@@ -1,40 +1,95 @@
 <!DOCTYPE html>
-<html lang=nld>
+<html lang="nl">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-        <noscript>JavaScript is off</noscript>
-        <script src=""></script>
+        <link rel="stylesheet" href="styles.css">
+        <noscript>JavaScript is off — some enhancements are disabled.</noscript>
         <title>KNMC JOMA</title>
     </head>
     <body>
-        <header>KNMC JOMA</header>
-        <main>
-            <h1>Wat is er zo interessant aan onze school?</h1>
-            <p>Er zijn veel geheimen, <a href="#complotten">complotten</a> en interessante <a href="#persoonlijkheden">persoonlijkheden</a> op onze school.</p>
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="brand">KNMC JOMA</div>
+                <nav class="main-nav" aria-label="Hoofd navigatie">
+                    <ul>
+                        <li><a href="mailto:yehor.rudun@gmail.com">Conntacten</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-            <section id="complotten">
-                <h1>Complotten van KNMC JOMA</h1>
-                <p>In develepment, sorry</p>
+        <main class="container" id="content">
+            <p class="Warning">Warning! Deze website is niet officieel en niet gemaakt om iemand uit te lachen! Als je jezelf gepest voelt dan meld dat aan Hello Kitty Boy(KNOPJE CONTACTEN VAN BOWEN).</p>
+                <p class="Warning">Warning 2 dat is demo versie van het KNMCFUN JOMA website, dat kan niet zo goed werken bij gsm.</p>
+            <h1>Wat is er zo interessant aan onze school?</h1>
+            <p class="lead">Er zijn veel geheimen, <a href="#complotten">complotten</a> en interessante <a href="#persoonlijkheden">persoonlijkheden</a> op onze school.</p>
+            <section id="verhalen" class="panel" aria-labelledby="verhalen-heading">
+                <h2 id="verhalen-heading">Verhalen van KNMC JOMA</h2>
+                <ul>
+                    <li>
+                        <h3>Pion moord</h3>
+                        <p>De pion moord is een mysterieus geval dat in de klas van 3TEW/HUM is opgetreden. Iemand heeft een pion gestolen en in wc gegoid. Moordenaar heeft een video van het gebeuren aan iemand doorgesturd.</p>
+                    </li>
+                </ul>
             </section>
-            <section id="persoonlijkheden" >
-                <h1>Interessante persoonlijkheden op KNMC JOMA</h1>
-                <div class="AboutP" id="Fluiter">
-                    <h2>Fluiter</h2>
-                    <p>Fluiter van 3TEW/HUM is een mens die houd van fluiten te hard!</p>
-                    <p>Echt weinig mensen weten wie dat echt was en die willen dat niet door geven aan iedeeren, misschien is het maar beter zo?</p>
+            <section id="complotten" class="panel" aria-labelledby="complotten-heading">
+                <h2 id="complotten-heading">Complotten van KNMC JOMA</h2>
+                <article id="LerelingRaad" class="block">
+                    <h3>Lereling Raad</h3>
+                    <p>De Lereling Raad is een groep van leerkrachten en leerlingen die samenwerken aan het verbeteren van de schoolomgeving. Zo zegen die, maar wat doen die daar? Niemand weet het zeker. Maar mischien stiekem verkopen ze aardapel?</p>
+                </article>
+                <article id="GentelmenComplot" class="block">
+                    <h3>Gentelmen Complot</h3>
+                    <p>Het Gentelmen Complot is een genootschap van GROTE BOEKENTAS, Temu Spider Man, Hello Kitty Boy en Half Gekookte Gremlin. Niemand weet wat ze allemaal doen.</p>
+                </article>
+            </section>
+
+            <section id="persoonlijkheden" class="panel" aria-labelledby="persoonlijkheden-heading">
+                <h2 id="persoonlijkheden-heading">Interessante persoonlijkheden op KNMC JOMA</h2>
+                <div class="cards">
+                    <article class="card" id="Fluiter">
+                        <h3>Fluiter</h3>
+                        <p>Fluiter van 3TEW/HUM houdt van hard fluiten. Weinig mensen weten zijn/haar echte identiteit. Mischien zo is beter?</p>
+                    </article>
+
+                    <article class="card" id="PionButcher">
+                        <h3>The Pion Butcher</h3>
+                        <p>The Pion Butcher, you know the nickname and you know what she did. She dismembered a pion and tossed pion in the school toilet.</p>
+                    </article>
+
+                    <article class="card" id="WCSpiderMan">
+                        <h3>Temu Spider Man</h3>
+                        <p>Bekend om op verboden plekken te klimmen en naar veboden dingen te kijken. Ja, en hij is nog een trein.</p>
+                    </article>
+                    <article class="card" id="DikkeBoeketas">
+                        <h3>JONGEN MET ZIJN DIKKE BOEKETAS</h3>
+                        <p>De jongen met zijn dikke boekentas is een beetje irritante man die vaak "perongeluk" duwt jouw met zijn boekentas. Hij heeft ook vaak ruzies met half gekookte gremlin.</p>
+                    </article>
+                    <article class="card" id="HalfGekookteGremlin">
+                        <h3>Half Gekookte Gremlin</h3>
+                        <p>Half gekookte gremlin op eesrt blik lijkt op cute petite meisje, maar van binnen zij is echt agressief, denk ik. Zij heeft haar bijnaam gerkijgen door Temu Spider Man.</p>
+                    </article>
+                    <article class="card" id="HelloKittyBoy">
+                        <h3>Hello Kitty Boy</h3>
+                        <p>De Hello Kitty Boy is een jongen die vaak Temu Spider Man volgt. Hij heeft die web site gemaakt en aan zichzelf een bijnaam gegeven. Als je iets niet leuk in web-site ziet, dan jump hem.</p>
+                    </article>
                 </div>
-                <div class="AboutP" id="PionButcher">
-                    <h2>The pion butcher</h2>
-                    <p>The pion butcher, you know the nick name and know what she did. She flushed the pion down in the school toilet. Now his family is sad without him.</p>
-                </div>
-                <div class="AboutP" id="WCSpiderMan">
-                    <h2>Temu spider man</h2>
-                    <p>Hij klimt graag op plekken waar hij niet mag komen en kijkt graag op iets dat hij niet mag kijken, en hij is ook nog een trein.</p>
-                </div>
+            </section>
+            <section id="leerkrachten" class="panel" aria-labelledby="leerkrachten-heading">
+                <h2 id="leerkrachten-heading">Leerkrachten van KNMC JOMA</h2>
+                <p>In ontwikkeling — kom later terug voor meer informatie over leerkrachten.</p>
             </section>
         </main>
-        <footer>Made By The Hello Kitty Boy</footer>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>Made by The Hello Kitty Boy — &copy; <span id="year"></span></p>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </body>
 </html>
